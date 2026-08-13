@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>2026년 퇴직연금제도 세미나</title>
+<style>
+  html, body, #root { margin: 0; padding: 0; min-height: 100vh; }
+  * { box-sizing: border-box; }
+</style>
+
+<!-- Import map: lets the browser resolve bare specifiers (react, lucide-react, ...) to CDN URLs -->
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.3.1",
+    "react-dom/client": "https://esm.sh/react-dom@18.3.1/client?external=react",
+    "lucide-react": "https://esm.sh/lucide-react@0.383.0?external=react",
+    "recharts": "https://esm.sh/recharts@2.12.7?external=react,react-dom",
+    "xlsx": "https://esm.sh/xlsx@0.18.5"
+  }
+}
+</script>
+
+<!-- Babel Standalone: transpiles the JSX in app.jsx in the browser (no build step needed) -->
+<script src="https://unpkg.com/@babel/standalone@7.24.7/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel" data-type="module" data-presets="react" src="./app.jsx"></script>
+</body>
+</html>
