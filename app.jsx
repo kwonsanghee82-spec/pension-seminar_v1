@@ -40,7 +40,7 @@ const RATING_FIELDS = [
 // 1) Google Sheets에 "설문"과 "출석" 탭(시트)을 만드세요.
 // 2) 함께 드린 apps-script.gs 코드를 Apps Script에 붙여넣고 "웹 앱"으로 배포하세요.
 // 3) 배포 후 발급되는 웹 앱 URL을 아래 GAS_URL에 붙여넣으세요.
-const GAS_URL = "https://script.google.com/macros/s/AKfycbzc0dfCET0eAOYjjfj1YkIR4WTLhqiiskGhpWGUN42y_tF-OoGSeTJqchkmLWdZUasU3Q/exec";
+const GAS_URL = "https://docs.google.com/spreadsheets/d/1sGpgLTyDIc-ogp4yLWONan-RQrM1k0nK2qVNf2QlWO0/edit?usp=sharing";
 const SURVEY_SHEET = "설문";
 const ATTENDANCE_SHEET = "출석";
 // Simple access code so ordinary attendees can't open the aggregated results.
